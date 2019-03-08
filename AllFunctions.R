@@ -13,7 +13,7 @@
 
 
 ### point to your Python distribution
-Sys.setenv(RETICULATE_PYTHON = "C:/Users/willt/Anaconda3/python.exe")
+Sys.setenv(RETICULATE_PYTHON = YOUR_PYTHON_PATH)
 ###
 
 require(reticulate)
