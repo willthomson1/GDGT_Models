@@ -6,5 +6,5 @@ The rest of the files contain either pre-trained models or modern calibration da
 
 You will need to ensure that you have a version of Python installed (the code is based on Python 3.6) along with the GPy library (https://sheffieldml.github.io/GPy/).
 
-The code uses the reticulate R package to make use of GPy's extensive Gaussian Process framework within R, so you will also need to install reticulate and set it up by pointing to your Python distribution via 
+The code uses the reticulate R package (https://github.com/rstudio/reticulate) to make use of GPy's extensive Gaussian Process framework within R, so you will also need to install reticulate (via install.packages("reticulate")) and set it up by pointing to your Python distribution via 
 Sys.setenv(RETICULATE_PYTHON = path_to_your_python_distribution)
